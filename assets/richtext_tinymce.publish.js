@@ -14,6 +14,7 @@ jQuery(document).ready(function() {
 		plugins: 'paste',
 		skin: 'symphony',
 
+		width: '100%',
 		theme_advanced_buttons1 : 'formatselect,bold,italic,underline,|,bullist,numlist,outdent,indent,|,blockquote,link,unlink,image,|,copy,pasteword,|,undo,redo,|,cleanup,code',
 		theme_advanced_buttons2 : '',
 		theme_advanced_buttons3 : '',
