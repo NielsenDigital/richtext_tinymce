@@ -11,15 +11,15 @@ jQuery(document).ready(function() {
 		script_url: Symphony.Context.get('root') + '/extensions/richtext_tinymce/lib/tiny_mce.js',
 
 		theme: 'advanced',
-		plugins: 'paste',
+		plugins: 'paste, table',
 		skin: 'symphony',
 
 		width: '100%',
 		theme_advanced_buttons1 : 'formatselect,bold,italic,underline,|,bullist,numlist,outdent,indent,|,blockquote,link,unlink,image,|,copy,pasteword,|,undo,redo,|,cleanup,code',
-		theme_advanced_buttons2 : '',
+		theme_advanced_buttons2 : 'tablecontrols',
 		theme_advanced_buttons3 : '',
 		theme_advanced_buttons4 : '',
-		theme_advanced_blockformats : 'p,h3,h4,h5,h6,pre',
+		theme_advanced_blockformats : 'p,h4,h5,h6,pre',
 		theme_advanced_toolbar_location : 'top',
 		theme_advanced_toolbar_align : 'left',
 		theme_advanced_resizing : true,
@@ -29,6 +29,7 @@ jQuery(document).ready(function() {
 		external_image_list_url : 'lists/image_list.js',
 		media_external_list_url : 'lists/media_list.js',
 		
+		convert_urls: false,
 		entities: ''
 		
 	});
