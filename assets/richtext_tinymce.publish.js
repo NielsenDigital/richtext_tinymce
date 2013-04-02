@@ -25,6 +25,18 @@ jQuery(document).ready(function() {
 		theme_advanced_toolbar_align : 'left',
 		theme_advanced_resizing : true,
 
+		/* paste plugin settings: see http://www.tinymce.com/wiki.php/plugin:paste */
+		paste_auto_cleanup_on_paste : true,
+		paste_convert_middot_lists : true,
+		paste_retain_style_properties : 'none',
+		// paste_strip_class_attributes : 'none', 'all', or 'mso'
+		paste_strip_class_attributes : 'all',
+		paste_remove_spans : 'true',
+		paste_dialog_width : 400,
+		paste_dialog_height : 600,
+		// paste_strip_class_attributes : can be set to br, p or combined.
+		paste_text_linebreaktype : 'p',
+		
 		template_external_list_url : 'lists/template_list.js',
 		external_link_list_url : 'lists/link_list.js',
 		external_image_list_url : 'lists/image_list.js',
