@@ -13,7 +13,8 @@ jQuery(document).ready(function() {
 		theme: 'advanced',
 		plugins: 'paste, table',
 		skin: 'symphony',
-
+		entity_encoding : "numeric",
+		
 		width: '100%',
 		theme_advanced_buttons1 : 'formatselect,bold,italic,underline,|,bullist,numlist,outdent,indent,|,blockquote,link,unlink,image,|,copy,pasteword,|,undo,redo,|,cleanup,code',
 		theme_advanced_buttons2 : 'tablecontrols',
