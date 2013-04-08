@@ -44,7 +44,6 @@ jQuery(document).ready(function() {
 		
 		convert_urls: false,
 		entities: ''
-		
 	});
 	
 });
